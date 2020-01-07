@@ -29,6 +29,11 @@ public class TwoDArray
     public void printArray()
     {
         // write code here to print out the contents of 2-D array a in row-major order
-
+        for(int x = 0; x < a.length; x++) {
+            for(int y = 0; y < a[x].length; y++) {
+                System.out.print(a[x][y] + " ");
+            }
+            System.out.println("");
+        }
     }
 }
